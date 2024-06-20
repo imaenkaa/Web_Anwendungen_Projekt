@@ -1,0 +1,22 @@
+{% extends 'base.html' %} {% block content %}
+<h2>Log Habit: {{ user_habit.habit.name }}</h2>
+<form
+  method="POST"
+  action="{{ url_for('habits.log_habit', user_habit_id=user_habit.id) }}"
+>
+  <div class="form-group">
+    <label for="note">Note</label>
+    <textarea class="form-control" id="note" name="note" rows="3"></textarea>
+  </div>
+  <div class="form-group form-check">
+    <input
+      type="checkbox"
+      class="form-check-input"
+      id="completed"
+      name="completed"
+    />
+    <label class="form-check-label" for="completed">Completed</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Log Habit</button>
+</form>
+{% endblock %}

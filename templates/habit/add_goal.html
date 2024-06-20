@@ -1,0 +1,90 @@
+{% extends 'base.html' %} {% block title %}Add Goal{% endblock %} {% block
+content %}
+<div class="container"><div class="form-container">
+<h4>Add Goal for {{ habit.name }}</h4>
+<form method="POST">
+  <div class="mb-3">
+    <label for="target_date" class="form-label">Target Date</label>
+    <input
+      type="date"
+      class="input"
+      placeholder="select date"
+      id="target_date"
+      name="target_date"
+      required
+    />
+  </div>
+  <button type="submit" >Add Goal <div class="arrow-wrapper">
+    <div class="arrow"></div></button>
+</form>
+</div></div>
+
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  button {
+    --primary-color: linear-gradient(135deg, #a241fb 0%, #5e45e9 100%);
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 0.6em 1em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+
+  button:hover {
+    background-color: var(--hover-color);
+  }
+
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+
+  button:hover .arrow:before {
+    right: 0;
+  }
+</style>
+{% endblock %}

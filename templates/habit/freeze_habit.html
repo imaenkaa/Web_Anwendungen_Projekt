@@ -1,0 +1,188 @@
+{% extends "base.html" %} {% block content %}
+<div class="container"
+>
+<div class="form-container">
+  <h2>Freeze Habit</h2>
+  <form id="freeze-form" method="POST">
+    <div class="form-group">
+      <label for="dates">Select Days to Freeze:</label>
+      <input
+        type="text"
+        placeholder="select dates"
+        id="datepicker"
+        name="dates"
+        class="input"
+      />
+    </div>
+    <button type="button" onclick="confirmFreeze()">Freeze Habit <div class="arrow-wrapper">
+      <div class="arrow"></div></button>
+  </form>
+</div>
+</div>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="confirmModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="confirmModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="confirmModalLabel">Confirm Freeze</h5>
+        <button
+          type="button"
+          class="close"
+          data-dismiss="modal"
+          aria-label="Close"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">Are you sure you want to freeze this habit?</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+          Cancel
+        </button>
+        <button type="button" class="btn btn-danger" id="confirmButton">
+          Confirm
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function confirmFreeze() {
+    $("#confirmModal").modal("show");
+  }
+
+  document
+    .getElementById("confirmButton")
+    .addEventListener("click", function () {
+      document.getElementById("freeze-form").submit();
+    });
+</script>
+<script type="text/javascript">
+  // Maintain array of dates
+  var dates = new Array();
+
+  function addDate(date) {
+    if (jQuery.inArray(date, dates) < 0) dates.push(date);
+  }
+
+  function removeDate(index) {
+    dates.splice(index, 1);
+  }
+
+  // Adds a date if we don't have it yet, else remove it
+  function addOrRemoveDate(date) {
+    var index = jQuery.inArray(date, dates);
+    if (index >= 0) removeDate(index);
+    else addDate(date);
+  }
+
+  // Takes a 1-digit number and inserts a zero before it
+  function padNumber(number) {
+    var ret = new String(number);
+    if (ret.length == 1) ret = "0" + ret;
+    return ret;
+  }
+
+  jQuery(function () {
+    jQuery("#datepicker").datepicker({
+      onSelect: function (dateText, inst) {
+        addOrRemoveDate(dateText);
+        jQuery("#datepicker").val(dates.join(", "));
+      },
+      beforeShowDay: function (date) {
+        var year = date.getFullYear();
+        var month = padNumber(date.getMonth() + 1);
+        var day = padNumber(date.getDate());
+        var dateString = month + "/" + day + "/" + year;
+
+        var gotDate = jQuery.inArray(dateString, dates);
+        if (gotDate >= 0) {
+          // Enable date so it can be deselected. Set style to be highlighted
+          return [true, "ui-state-highlight"];
+        }
+        // Dates not in the array are left enabled, but with no extra style
+        return [true, ""];
+      },
+    });
+  });
+</script>
+
+<style>
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+
+  button {
+    --primary-color: linear-gradient(135deg, #a241fb 0%, #5e45e9 100%);
+    --secondary-color: #fff;
+    --hover-color: #111;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 0.6em 1em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.2s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+  }
+
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+
+  button:hover {
+    background-color: var(--hover-color);
+  }
+
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+
+  button:hover .arrow:before {
+    right: 0;
+  }
+</style>
+
+{% endblock %}

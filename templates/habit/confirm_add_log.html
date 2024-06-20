@@ -1,0 +1,20 @@
+{% extends "base.html" %} {% block content %}
+<h2>Confirm Add Log</h2>
+<p>You have missing logs for the following dates: {{ missing_dates }}</p>
+<p>Confirm to add these as incomplete logs.</p>
+<form
+  method="POST"
+  action="{{ url_for('habits.add_log', habit_id=habit.id, log_type='other_day') }}"
+>
+  <input type="hidden" name="date" value="{{ date }}" />
+  <input type="hidden" name="completed" value="{{ completed }}" />
+  <input type="hidden" name="notes" value="{{ notes }}" />
+  <input type="hidden" name="confirm" value="true" />
+  <button type="submit" class="btn btn-primary">Confirm</button>
+  <a
+    href="{{ url_for('habits.view_habit', habit_id=habit.id) }}"
+    class="btn btn-secondary"
+    >Cancel</a
+  >
+</form>
+{% endblock %}

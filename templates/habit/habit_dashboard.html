@@ -1,0 +1,178 @@
+{% extends "base.html" %} {% block content %}
+<div class="analysis-dashboard">
+  <h2>{{ habit.name }}</h2>
+  <div class="habit-details">
+    <div class="detail-item">
+      <span class="detail-label">Habit started on:</span>
+      <span class="detail-value">{{ habit.start_date }}</span>
+    </div>
+    <div class="detail-item">
+      <span class="detail-label">Current Streak:</span>
+      <span class="detail-value">{{ current_streak }}</span>
+    </div>
+    <div class="detail-item">
+      <span class="detail-label">Highest Streak:</span>
+      <span class="detail-value">{{ highest_streak }}</span>
+    </div>
+    <div class="detail-item">
+      <span class="detail-label">Completed Days:</span>
+      <span class="detail-value">{{ completed_days }}</span>
+    </div>
+    <div class="detail-item">
+      <span class="detail-label">Skipped Days:</span>
+      <span class="detail-value">{{ skipped_days }}</span>
+    </div>
+    <div class="detail-item">
+      <span class="detail-label">Total Days:</span>
+      <span class="detail-value">{{ total_days }}</span>
+    </div>
+  </div>
+
+  <div class="progress-container">
+    <div
+      id="progress-bar"
+      class="progress-bar"
+      role="progressbar"
+      aria-valuenow="{{ progress }}"
+      aria-valuemin="0"
+      aria-valuemax="100"
+    ></div>
+  </div>
+  <p class="progress-text">Progress: {{ progress }}%</p>
+
+  <h3>Goals:</h3>
+  {% if goals %}
+  <ul class="goals-list">
+    {% for goal in goals %} {% if goal.Result == "Success" %}
+    <li class="goal success">
+      Goal achieved from {{ goal.start_date }} to {{ goal.target_date }}
+    </li>
+    {% elif goal.Result == "Failed" %}
+    <li class="goal failed">
+      Failed to achieve Goal from {{ goal.start_date }} to {{ goal.target_date
+      }}
+    </li>
+    {% endif %} {% endfor %}
+  </ul>
+  {% else %}
+  <div class="card_not_found">You have no goals yet!</div>
+  {% endif %}
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var progressBar = document.getElementById("progress-bar");
+    progressBar.style.width = "{{ progress }}" + "%";
+  });
+</script>
+<style>
+  /* Base styling */
+  body,
+  html {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .habit-details {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .detail-item {
+    display: flex;
+    justify-content: left;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .detail-item:last-child {
+    border-bottom: none;
+  }
+
+  .detail-label {
+    font-weight: bold;
+    color: #333;
+  }
+
+  .detail-value {
+    color: #555;
+    margin-left: 20px;
+  }
+
+  .analysis-dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  }
+
+  .analysis-dashboard h2 {
+    text-align: center;
+    color: #5e45e9;
+    margin-bottom: 20px;
+  }
+
+  .analysis-dashboard p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+
+  .analysis-dashboard .progress-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+
+  .analysis-dashboard .progress-bar {
+    height: 25px;
+    background-color: #5e45e9;
+    width: 0;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .progress-text {
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+  }
+
+  .analysis-dashboard h3 {
+    margin-top: 30px;
+    color: #4a4a4a;
+  }
+
+  .goals-list {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .goals-list .goal {
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+  }
+
+  .goals-list .goal.success {
+    background-color: #d4edda;
+    color: #155724;
+  }
+
+  .goals-list .goal.failed {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+</style>
+{% endblock %}

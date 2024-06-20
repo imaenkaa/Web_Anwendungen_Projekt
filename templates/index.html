@@ -1,0 +1,70 @@
+{% extends 'base.html' %} {% block title %}Home{% endblock %} {% block content
+%}
+<h2>Current Habits</h2>
+
+<div class="card-grid">
+  {% for habit in habits %}
+  <div class="card">
+    <div class="main-header">
+      <div class="card-headerr">
+        <span class="habit_name">{{ habit.name }}</span>
+        <span>{{habit.category}}</span>
+      </div>
+      <div>
+        <a
+          href="{{ url_for('habits.view_habit', habit_id=habit.id) }}"
+          class="log_button"
+          >View Details</a
+        >
+      </div>
+    </div>
+    <div class="main-header1">
+      {% if today_logs[habit.id] %}
+
+      <a
+        href="{{ url_for('habits.add_log', habit_id=habit.id, log_type='other_day') }}"
+        >Log Another Day</a
+      >
+
+      {% else %}
+
+      <a
+        href="{{ url_for('habits.add_log', habit_id=habit.id, log_type='today') }}"
+        >Log Today</a
+      >
+
+      {% endif %}
+      <div class="dropdown">
+        <button class="dropdown-button">More</button>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              class="dropdown-item"
+              href="{{ url_for('habits.habit_dashboard', habit_id=habit.id) }}"
+              >Analysis</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="{{ url_for('habits.freeze_habit', habit_id=habit.id) }}"
+              >Freeze</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item"
+              href="{{ url_for('habits.add_goal', habit_id=habit.id) }}"
+              >Add Goal</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+<div class="main-header2">
+  <a href="{{ url_for('habits.add_habit') }}" class="view_button">Add Habit</a>
+</div>
+{% endblock %}

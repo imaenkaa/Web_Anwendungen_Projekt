@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/jquery-ui-multidatespicker@1.6.6/dist/jquery-ui.multidatespicker.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-ui-multidatespicker@1.6.6/dist/jquery-ui.multidatespicker.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='styles.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='form.css') }}"
+    />
+
+    <title>{% block title %}Habit Tracker{% endblock %}</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbarr">
+      <svg
+        version="1.0"
+        xmlns="http://www.w3.org/2000/svg"
+        height="4em"
+        width="4em"
+        viewBox="0 0 256 256"
+        class="mt-"
+      >
+        <g
+          transform="translate(0.000000,256) scale(0.100000,-0.100000)"
+          fill="#ffffff"
+          stroke="none"
+        >
+          <path
+            d="M1377 2090 c-14 -11 -28 -29 -32 -39 -3 -12 -19 -21 -42 -24 -38 -6
+-83 -41 -83 -64 0 -10 -20 -13 -80 -13 -73 0 -83 -3 -105 -25 l-25 -24 0 -480
+0 -480 26 -20 c26 -20 37 -21 404 -21 l377 0 21 23 c22 23 22 24 22 499 0 567
+11 521 -124 527 -59 2 -86 7 -86 15 0 22 -46 57 -83 63 -23 3 -39 12 -42 24
+-10 29 -55 59 -90 59 -18 0 -44 -9 -58 -20z m112 -36 c12 -15 21 -33 21 -40 0
+-9 12 -14 34 -14 19 0 45 -9 60 -21 22 -17 26 -28 26 -72 l0 -52 -195 0 -195
+0 0 52 c0 44 4 55 26 72 22 18 41 21 111 21 63 0 84 3 81 13 -3 6 -23 13 -46
+15 -47 3 -49 7 -25 34 25 28 77 24 102 -8z m-279 -167 l0 -34 -52 1 -53 1 -3
+-432 -2 -433 335 0 335 0 -2 433 -3 432 -53 0 -52 0 0 33 0 32 66 0 c115 0
+104 50 104 -493 0 -355 -3 -476 -12 -485 -17 -17 -749 -17 -766 0 -9 9 -12
+130 -12 485 0 541 -10 492 103 493 l67 0 0 -33z m530 -462 l0 -405 -305 0
+-305 0 0 405 0 405 305 0 305 0 0 -405z"
+          />
+          <path
+            d="M1554 1765 c-4 -10 -3 -25 3 -34 8 -13 0 -22 -44 -48 -30 -18 -57
+-33 -60 -33 -3 0 -28 14 -55 30 l-50 31 -65 -38 c-63 -36 -90 -63 -61 -63 7 1
+38 16 68 34 l55 33 56 -30 55 -31 60 36 c52 32 61 35 75 22 28 -25 47 -17 60
+26 15 50 2 67 -54 77 -29 4 -38 2 -43 -12z m72 -30 c4 -8 3 -23 -1 -32 -6 -16
+-8 -15 -25 7 -11 14 -20 28 -20 33 0 14 41 7 46 -8z"
+          />
+          <path
+            d="M1172 1558 c-16 -16 -16 -90 0 -106 7 -7 28 -12 48 -12 47 0 60 15
+60 67 0 32 -5 45 -19 53 -26 14 -74 13 -89 -2z m78 -53 c0 -32 -2 -35 -30 -35
+-28 0 -30 3 -30 35 0 32 2 35 30 35 28 0 30 -3 30 -35z"
+          />
+          <path
+            d="M1312 1539 c5 -16 300 -18 306 -1 3 9 -33 12 -153 12 -108 0 -156 -3
+-153 -11z"
+          />
+          <path
+            d="M1312 1469 c5 -16 391 -16 396 0 3 8 -51 11 -198 11 -144 0 -201 -3
+-198 -11z"
+          />
+          <path
+            d="M1172 1368 c-16 -16 -16 -90 0 -106 15 -15 63 -16 89 -2 14 8 19 21
+19 53 0 52 -13 67 -60 67 -20 0 -41 -5 -48 -12z m78 -53 c0 -32 -2 -35 -30
+-35 -28 0 -30 3 -30 35 0 32 2 35 30 35 28 0 30 -3 30 -35z"
+          />
+          <path
+            d="M1313 1357 c-3 -5 -3 -10 -1 -12 1 -2 71 -5 153 -7 122 -2 150 0 150
+11 0 11 -30 14 -148 15 -82 0 -151 -3 -154 -7z"
+          />
+          <path
+            d="M1317 1294 c-19 -19 1 -24 94 -24 76 0 100 3 97 13 -5 13 -178 23
+-191 11z"
+          />
+          <path
+            d="M1172 1181 c-9 -5 -12 -24 -10 -56 l3 -49 50 -2 c29 -1 53 3 57 10
+12 18 9 81 -4 94 -14 14 -76 16 -96 3z m78 -56 c0 -32 -3 -35 -29 -35 -25 0
+-29 4 -33 35 -4 34 -3 35 29 35 31 0 33 -2 33 -35z"
+          />
+          <path
+            d="M1317 1174 c-19 -20 4 -24 129 -24 104 0 135 3 132 13 -5 13 -248 24
+-261 11z"
+          />
+          <path
+            d="M1317 1104 c-17 -17 12 -24 99 -24 77 0 94 3 94 15 0 12 -17 15 -93
+15 -52 0 -97 -3 -100 -6z"
+          />
+        </g>
+      </svg>
+      <a class="navbar-brand navbar-brandd" href="{{ url_for('main.home') }}"
+        >Habit Tracker</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="navbar-brand nav-linkk" href="{{ url_for('main.home') }}"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              class="navbar-brand nav-linkk"
+              href="{{ url_for('badges.view_badges') }}"
+              >Badges</a
+            >
+          </li>
+          {% if 'user_id' in session %}
+          <li class="nav-item">
+            <a
+              class="navbar-brand nav-linkk"
+              href="{{ url_for('auth.logout') }}"
+              >Logout</a
+            >
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ url_for('auth.login') }}">Login</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="navbar-brand nav-linkk"
+              href="{{ url_for('auth.signup') }}"
+              >Sign Up</a
+            >
+          </li>
+          {% endif %}
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container mt-3">
+      {% with messages = get_flashed_messages(with_categories=true) %} {% if
+      messages %}
+      <div class="alert-container">
+        {% for category, message in messages %}
+        <div
+          class="alert alert-{{ category }} alert-dismissible fade show"
+          role="alert"
+        >
+          {{ message }}
+          <button
+            type="button"
+            class="close"
+            data-dismiss="alert"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        {% endfor %}
+      </div>
+      {% endif %} {% endwith %} {% block content %}{% endblock %}
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
