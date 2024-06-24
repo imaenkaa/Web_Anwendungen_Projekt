@@ -1,10 +1,12 @@
 from flask import Blueprint, render_template, session, redirect, url_for, flash
 from models import Habit, LogHabit
 from datetime import datetime
+from flask_login import login_required
 
 main_bp = Blueprint('main', __name__,template_folder='templates')
 
 @main_bp.route('/')
+@login_required
 def home():
     if 'user_id' not in session:
         return redirect(url_for('auth.login'))

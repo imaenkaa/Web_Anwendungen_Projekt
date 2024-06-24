@@ -7,6 +7,7 @@ habits_bp = Blueprint('habits', __name__,template_folder='templates')
 
 
 @habits_bp.route('/add_habit', methods=['GET', 'POST'])
+@login_required
 def add_habit():
     if 'user_id' not in session:
         return redirect(url_for('auth.login'))
@@ -27,6 +28,7 @@ def add_habit():
     return render_template('habit/create_habit.html')
 
 @habits_bp.route('/habit/<int:habit_id>', methods=['GET', 'POST'])
+@login_required
 def view_habit(habit_id):
     if 'user_id' not in session:
         return redirect(url_for('auth.login'))
@@ -115,6 +117,7 @@ def view_habit(habit_id):
     return render_template('habit/view_habit.html', habit=habit, logs=logs, goals=goals, streak=streak, freezes=freezes)
 
 @habits_bp.route('/add_log/<int:habit_id>/<string:log_type>', methods=['GET', 'POST'])
+@login_required
 def add_log(habit_id,log_type):
     if 'user_id' not in session:
         return redirect(url_for('auth.login'))
@@ -199,6 +202,7 @@ def add_log(habit_id,log_type):
 
 
 @habits_bp.route('/add_goal/<int:habit_id>', methods=['GET', 'POST'])
+@login_required
 def add_goal(habit_id):
     if 'user_id' not in session:
         return redirect(url_for('login'))
@@ -225,6 +229,7 @@ def add_goal(habit_id):
     return render_template('/habit/add_goal.html', habit=habit)
 
 @habits_bp.route('/freeze_habit/<int:habit_id>', methods=['GET', 'POST'])
+@login_required
 def freeze_habit(habit_id):
     if 'user_id' not in session:
         return redirect(url_for('login'))
@@ -252,6 +257,7 @@ def freeze_habit(habit_id):
 
 
 @habits_bp.route('/habit/<int:habit_id>/dashboard')
+@login_required
 def habit_dashboard(habit_id):
     habit = Habit.query.get_or_404(habit_id)
 

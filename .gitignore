@@ -4,3 +4,5 @@ __pycache__/
 instance/
 migrations/
 users.db
+/env
+*.zip
