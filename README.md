@@ -2,8 +2,10 @@
 
 Willkommen zur Dokumentation des Habit Tracker Projekts. Dieses Dokument führt Sie durch die Installation und Nutzung des Habit Trackers, um Ihre Gewohnheiten effizient zu verfolgen und zu verwalten.
 
-##Installation
+## Installation
+
 Um den Habit Tracker zu installieren, folgen Sie diesen Schritten:
+
 1.	Öffnen Sie Ihr Terminal und klonen Sie das Repository auf Ihren lokalen Computer:
 
       git clone https://github.com/imaenkaa/Web_Anwendungen_Projekt.git
@@ -31,7 +33,7 @@ Um den Habit Tracker zu installieren, folgen Sie diesen Schritten:
 
       flask run
 
-##Nutzung
+## Nutzung
 
 1.	Registrierung und Anmeldung
     -	Gehen Sie zur Registrierungsseite, füllen Sie das Formular aus und klicken Sie          auf "Registrieren".
