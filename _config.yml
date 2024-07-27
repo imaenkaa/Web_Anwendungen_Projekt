@@ -1,1 +1,7 @@
-remote_theme: pmarsceill/just-the-docs 
+title: Your Project Title
+description: A short description of your project.
+theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-seo-tag
+
