@@ -1,6 +1,6 @@
 # Habit Tracker
 
-Willkommen zur Dokumentation des Habit Tracker Projekts. Dieses Dokument führt Sie durch die Installation und Nutzung des Habit Trackers, um Ihre Gewohnheiten effizient zu verfolgen und zu verwalten.
+Dieses Dokument führt Sie durch die Installation und Nutzung des Habit Trackers, um Ihre Gewohnheiten effizient zu verfolgen und zu verwalten.
 
 ## Installation
 
