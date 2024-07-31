@@ -67,5 +67,5 @@ class Freeze(db.Model):
     habit_id = db.Column(db.Integer, db.ForeignKey('habit.id'), nullable=False)
     date = db.Column(db.Date, nullable=False)
 
-# Remember to migrate the changes
+
 
