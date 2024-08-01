@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Team Evaluation
-permalink: /team-evaluation/
+permalink: /Web_Anwendungen_Projekt/team-evaluation/
 ---
 
 # Team Evaluation
