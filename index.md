@@ -2,6 +2,13 @@
 # Habit Tracker
 Willkommen zur Dokumentation der Habit Tracker App. Diese App hilft Ihnen, Ihre Gewohnheiten effizient zu verfolgen und zu verwalten.
 
+- [Design Decisions](./_pages/design_decisions.md)
+- [Team Evaluation](./_pages/team_evaluation.md)
+- [Technical Docs](./_pages/technical_docs.md)
+- [User Evaluation](./_pages/user_evaluation.md)
+- [Value Proposition](./_pages/value_proposition.md)
+
+
 ## Team members
 ### [Iman Bouziani]
 **About:** Iman ist eine Wirtschaftsinformatik-Studentin an der HWR.  
