@@ -1,3 +1,9 @@
+---
+layout: default
+title: Team Evaluation
+permalink: /team-evaluation/
+---
+
 # Team Evaluation
 
 Im Rahmen unseres Projekts, dem Habit Tracker, haben wir eine umfassende und funktionale Web-Anwendung entwickelt, die den Nutzern ermöglicht, ihre Gewohnheiten effektiv zu verfolgen und zu managen. Dieses Projekt bot uns die Gelegenheit, unsere technischen und kreativen Fähigkeiten zu erweitern, während wir gleichzeitig eine benutzerfreundliche und ansprechende Anwendung schufen. Im Folgenden reflektieren wir über die erreichten Ziele, geplante Verbesserungen, den Prozess der Peer-Reviews und die individuellen Beiträge zum Projekt.
