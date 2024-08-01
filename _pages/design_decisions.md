@@ -24,7 +24,7 @@ SQLAlchemy
 Pro: Abstraktion des Datenbanksystems, Erleichterung bei Schemaänderungen
 Contra: Lernkurve für das ORM-Konzept und SQLAlchemy Referenzdokumentation
 
----- 
+
 
 ## 02: Benutzerverwaltung
 
@@ -52,7 +52,7 @@ Manuelle Implementierung
 Pro: Vollständige Kontrolle über den Authentifizierungsprozess.
 Contra: Erhöhter Entwicklungsaufwand, höhere Fehleranfälligkeit, Sicherheitsrisiken.
 
----- 
+
 
 ## 03: Badges und Ziele
 
@@ -80,7 +80,8 @@ Keine Belohnungssysteme
 Pro: Einfachere Implementierung.
 Contra: Weniger Anreiz für Benutzer, kontinuierlich ihre Gewohnheiten zu verfolgen.
 
----- 
+
+
 ## 04: Frontend-Design und Templates
 
 ### Meta
