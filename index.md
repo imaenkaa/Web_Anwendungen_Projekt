@@ -1,6 +1,4 @@
 
----
-
 # Habit Tracker
 Willkommen zur Dokumentation der Habit Tracker App. Diese App hilft Ihnen, Ihre Gewohnheiten effizient zu verfolgen und zu verwalten.
 
