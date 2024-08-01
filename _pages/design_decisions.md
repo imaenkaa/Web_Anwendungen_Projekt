@@ -1,3 +1,9 @@
+---
+layout: default
+title: Design Decisions
+permalink: /design-decisions/
+---
+
 # Design Decisions
 
 Im Folgenden sind die zentralen Designentscheidungen dokumentiert, die für die Entwicklung und Skalierung unserer Webanwendung getroffen wurden. Diese Entscheidungen sollen Transparenz schaffen und die zukünftige Entwicklung unterstützen, indem sie klare Richtlinien und Begründungen bieten.
