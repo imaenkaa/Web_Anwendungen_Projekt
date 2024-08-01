@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Value Proposition
-permalink: /value-proposition/
+permalink: /Web_Anwendungen_Projekt/value-proposition/
 ---
 
 # Value proposition
