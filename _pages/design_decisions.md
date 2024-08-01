@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Design Decisions
-permalink: /design-decisions/
+permalink: /Web_Anwendungen_Projekt/design-decisions/
 ---
 
 # Design Decisions
