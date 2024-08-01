@@ -1,4 +1,11 @@
+---
+layout: default
+title: Technical Documentation
+permalink: /technical-documentation/
+---
 # Technical Documentation
+
+Hier bieten wir eine detaillierte technische Dokumentation unserer Habit Tracker App, um die Architektur, die zugrunde liegenden Technologien und die wichtigsten Funktionen umfassend zu erläutern. Diese Dokumentation soll Entwicklern und Interessierten einen klaren Einblick in die Struktur und die Funktionsweise der Anwendung geben.
 
 ## Architecture
 
