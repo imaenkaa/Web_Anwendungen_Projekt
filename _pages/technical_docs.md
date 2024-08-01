@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Technical Documentation
-permalink: /technical-documentation/
+permalink: /Web_Anwendungen_Projekt/technical-documentation/
 ---
 # Technical Documentation
 
