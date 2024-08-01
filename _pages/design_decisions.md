@@ -1,5 +1,7 @@
 # Design Decisions
 
+Ein wichtiger Aspekt unserer Codebasis ist die Behandlung von Benutzergewohnheiten und deren Logs. Jede Gewohnheit und jeder Log wird durch ein Modell repräsentiert, das SQLAlchemy verwendet, um eine flexible und erweiterbare Datenbankstruktur zu gewährleisten. Zusätzlich wurden wichtige Designentscheidungen dokumentiert, um die zukünftige Entwicklung zu unterstützen und die Nachvollziehbarkeit zu gewährleisten.
+
 ## 01: Database
 
 ### Meta
