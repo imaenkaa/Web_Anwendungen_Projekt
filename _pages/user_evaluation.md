@@ -5,6 +5,8 @@ permalink: /user-evaluation/
 ---
 # User Evaluation
 
+In dieser Sektion präsentieren wir die Ergebnisse unserer Nutzerbewertung, um Einblicke in die Benutzerfreundlichkeit und Effektivität unserer Habit Tracker App zu gewinnen. Diese Bewertung dient dazu, die Zufriedenheit der Nutzer zu analysieren und mögliche Verbesserungen zu identifizieren.
+
 ## Goal
 
 Das Ziel dieser Evaluation besteht darin, die Benutzerfreundlichkeit und Effektivität unserer Habit Tracker App zu bewerten. Unsere zentrale Forschungsfrage lautet: „Wie zufrieden sind die Nutzer mit der Benutzeroberfläche und den Funktionen der App, und welche Verbesserungen schlagen sie vor?“
