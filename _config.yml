@@ -25,3 +25,5 @@ just_the_docs:
   search_enabled: true
   show_last_updated_time: true
   show_last_updated_time_format: "%b %-d, %Y"
+
+baseurl: "/Web_Anwendungen_Projekt"
