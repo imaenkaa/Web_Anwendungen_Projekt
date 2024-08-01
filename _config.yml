@@ -1,7 +1,17 @@
-title: Your Project Title
-description: A short description of your project.
-theme: just-the-docs
-remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-seo-tag
-
+title: Project Name
+remote_theme: just-the-docs/just-the-docs
+mermaid:
+  version: "10.9.0" # Pick version from https://cdn.jsdelivr.net/npm/mermaid/
+callouts:
+  tip:
+    title: 🤍 Tip
+    color: purple
+  info:
+    title: ℹ️ Info
+    color: blue
+  attention:
+    title: ❕ Attention
+    color: yellow
+  download:
+    title: 💾 Download
+    color: grey-dk
