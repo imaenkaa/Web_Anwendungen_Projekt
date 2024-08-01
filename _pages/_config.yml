@@ -1,4 +1,4 @@
-title: Project Name
+title: Habit Tracker
 remote_theme: just-the-docs/just-the-docs
 mermaid:
   version: "10.9.0" # Pick version from https://cdn.jsdelivr.net/npm/mermaid/
@@ -15,3 +15,14 @@ callouts:
   download:
     title: 💾 Download
     color: grey-dk
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:name/
+
+just_the_docs:
+  search_enabled: true
+  show_last_updated_time: true
+  show_last_updated_time_format: "%b %-d, %Y"
+
