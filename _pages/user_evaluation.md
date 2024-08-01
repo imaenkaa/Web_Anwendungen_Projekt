@@ -35,7 +35,7 @@ Insgesamt 20% der Nutzer haben eine neutrale Haltung gegenüber der App. Diese G
 
 15% der Nutzer sind unzufrieden mit der App. Dies ist eine wichtige Gruppe, da ihre Rückmeldungen Hinweise darauf geben, welche spezifischen Probleme oder Unzufriedenheiten existieren. Hier besteht die Möglichkeit, durch gezielte Verbesserungen und Anpassungen die Nutzererfahrung zu verbessern und die Zufriedenheit zu steigern.
 
-![Diagramm zur Nutzerzufriedenheit](_pages/user_eval_image.png)
+![Diagramm zur Nutzerzufriedenheit](user_eval_image.png)
 
 Die Auswertung zeigt, dass die Mehrheit der Nutzer mit der App zufrieden oder sehr zufrieden ist. Dennoch gibt es Raum für Verbesserungen, insbesondere für die 15% der unzufriedenen Nutzer. Indem wir auf ihre Rückmeldungen eingehen und die App weiter optimieren, können wir die Gesamtzufriedenheit weiter erhöhen und eine breitere Nutzerbasis ansprechen. 
 
