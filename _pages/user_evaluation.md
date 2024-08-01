@@ -1,7 +1,7 @@
 ---
 layout: default
 title: User Evaluation
-permalink: /user-evaluation/
+permalink: /Web_Anwendungen_Projekt/user-evaluation/
 ---
 # User Evaluation
 
