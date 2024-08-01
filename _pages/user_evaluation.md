@@ -35,4 +35,18 @@ Insgesamt 20% der Nutzer haben eine neutrale Haltung gegenüber der App. Diese G
 
 15% der Nutzer sind unzufrieden mit der App. Dies ist eine wichtige Gruppe, da ihre Rückmeldungen Hinweise darauf geben, welche spezifischen Probleme oder Unzufriedenheiten existieren. Hier besteht die Möglichkeit, durch gezielte Verbesserungen und Anpassungen die Nutzererfahrung zu verbessern und die Zufriedenheit zu steigern.
 
+![Diagramm zur Nutzerzufriedenheit](_pages/user_eval_image.png)
+
+Die Auswertung zeigt, dass die Mehrheit der Nutzer mit der App zufrieden oder sehr zufrieden ist. Dennoch gibt es Raum für Verbesserungen, insbesondere für die 15% der unzufriedenen Nutzer. Indem wir auf ihre Rückmeldungen eingehen und die App weiter optimieren, können wir die Gesamtzufriedenheit weiter erhöhen und eine breitere Nutzerbasis ansprechen. 
+
+## Implications
+
+Aus unserer Evaluation haben wir mehrere wichtige Erkenntnisse gewonnen, die wir nutzen werden, um unsere App gezielt zu verbessern und die Benutzerzufriedenheit zu erhöhen. 
+
+Eine der ersten Maßnahmen wird das Benachrichtigungsmanagement betreffen. Wir planen, eine Funktion hinzuzufügen, die es den Benutzern ermöglicht, die Häufigkeit und Art der Benachrichtigungen individuell anzupassen. Dies wird den Nutzern helfen, ihre App-Erfahrung besser an ihre persönlichen Vorlieben und täglichen Routinen anzupassen, was zu einer höheren Akzeptanz und Zufriedenheit führen sollte. Des Weiteren werden wir technische Optimierungen vornehmen, insbesondere bei der Synchronisationsfunktion. Unser Ziel ist es, sicherzustellen, dass Daten zuverlässig und nahtlos zwischen verschiedenen Geräten übertragen werden. Dies wird die Benutzererfahrung für diejenigen verbessern, die die App auf mehreren Plattformen nutzen, und technische Frustrationen minimieren. Ein weiterer wichtiger Aspekt ist die Einführung von mehr Anpassungsmöglichkeiten. Wir planen, zusätzliche Themes und Farbschemata anzubieten, damit die Benutzer die App nach ihren individuellen ästhetischen Vorlieben gestalten können. Dies wird nicht nur die Benutzerbindung stärken, sondern auch die Freude an der Nutzung der App erhöhen.
+
+Nachdem wir diese Verbesserungen implementiert haben, werden wir die Evaluation erneut durchführen. Ziel ist es, die Auswirkungen der Änderungen zu messen und weitere Optimierungspotenziale zu identifizieren. Durch diese kontinuierliche Verbesserung hoffen wir, die Zufriedenheit der Benutzer weiter zu steigern und die Benutzererfahrung insgesamt zu verbessern, was letztlich zu einer höheren Benutzerbindung und langfristigen Nutzung unserer Habit Tracker App führen wird.
+
+
+
 
