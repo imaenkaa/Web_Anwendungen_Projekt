@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Value Proposition
+permalink: /value-proposition/
+---
 
 # Value proposition
 
