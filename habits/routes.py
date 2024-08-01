@@ -156,8 +156,6 @@ def add_log(habit_id,log_type):
                 missing_dates_str = ', '.join([d.strftime('%Y-%m-%d') for d in missing_dates])
             
 
-                # Prompt the user with a confirmation dialog
-                # (Assume the confirmation comes as a form submission with `confirm` field)
                 if not request.form.get('confirm'):
                     flash(f'You have missing logs for the following dates: {missing_dates_str}. Confirm to add these as incomplete logs.', 'warning')
                     return render_template('/habit/confirm_add_log.html', habit=habit, missing_dates=missing_dates_str, date=target_date_str, completed=completed, notes=notes,last_date=last_log.date,log_type=log_type)
@@ -265,7 +263,7 @@ def habit_dashboard(habit_id):
     goals = Goal.query.filter_by(habit_id=habit_id).all()
     freezes = Freeze.query.filter_by(habit_id=habit_id).all()
     freeze_dates = set(freeze.date for freeze in freezes)
-    # Calculate current streak
+    # Berechne aktueller Streak
 
     streak = 0
     total_days=0
@@ -293,10 +291,10 @@ def habit_dashboard(habit_id):
         total_days = (current_date - habit.start_date).days + 1
         completed_days = LogHabit.query.filter_by(habit_id=habit.id, completed=True).count()
         progress = int((completed_days / total_days) * 100) if total_days > 0 else 0
-    # Calculate progress
+    # Progress wird kalkuliert
    
 
-    # Get all goal details
+    # Alle goal details
     goals = Goal.query.filter_by(habit_id=habit.id).all()
 
     return render_template('/habit/habit_dashboard.html', habit=habit, current_streak=streak,highest_streak=habit.highest_streak, progress=progress, goals=goals,total_days=total_days,completed_days=completed_days,skipped_days=total_days-completed_days)
