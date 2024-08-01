@@ -1,3 +1,8 @@
+---
+layout: default
+title: User Evaluation
+permalink: /user-evaluation/
+---
 # User Evaluation
 
 ## Goal
