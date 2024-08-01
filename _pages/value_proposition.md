@@ -6,7 +6,7 @@ permalink: /value-proposition/
 
 # Value proposition
 
-
+Hier stellen wir die Wertversprechen unserer Habit Tracker App vor, um zu zeigen, wie unsere Lösung die spezifischen Probleme unserer Zielnutzer angeht und ihnen dabei hilft, ihre Ziele zu erreichen.
 
 ## The problem
 
