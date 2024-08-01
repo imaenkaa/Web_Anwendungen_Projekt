@@ -6,8 +6,6 @@ nav_order: 1
 {: .label }
 [Dokumentation - Value Proposition]
 
-{: .no_toc }
-
 # Value proposition
 
 <details open markdown="block">
