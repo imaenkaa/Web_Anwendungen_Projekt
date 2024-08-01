@@ -19,7 +19,7 @@ callouts:
 collections:
   pages:
     output: true
-    permalink: /:collection/:name/
+    permalink: /_pages/value_proposition.md
 
 just_the_docs:
   search_enabled: true
