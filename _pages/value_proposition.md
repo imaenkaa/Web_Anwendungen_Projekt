@@ -1,19 +1,8 @@
----
-title: Value Proposition
-nav_order: 1
----
 
-{: .label }
-[Dokumentation - Value Proposition]
 
 # Value proposition
 
-<details open markdown="block">
-{: .text-delta }
-<summary>Table of contents</summary>
-+ ToC
-{: toc }
-</details>
+
 
 ## The problem
 
