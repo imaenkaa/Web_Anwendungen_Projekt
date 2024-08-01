@@ -25,5 +25,21 @@ just_the_docs:
   search_enabled: true
   show_last_updated_time: true
   show_last_updated_time_format: "%b %-d, %Y"
+  collections:
+    nav:
+      - title: "Habit Tracker"
+        url: "/Web_Anwendungen_Projekt/"
+        children:
+          - title: "Value Proposition"
+            url: "/Web_Anwendungen_Projekt/value-proposition/"
+          - title: "Technical Docs"
+            url: "/Web_Anwendungen_Projekt/technical-docs/"
+          - title: "Design Decisions"
+            url: "/Web_Anwendungen_Projekt/design-decisions/"
+          - title: "User Evaluation"
+            url: "/Web_Anwendungen_Projekt/user-evaluation/"
+          - title: "Team Evaluation"
+            url: "/Web_Anwendungen_Projekt/team-evaluation/"
 
 baseurl: "/Web_Anwendungen_Projekt"
+
