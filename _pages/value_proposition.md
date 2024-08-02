@@ -14,7 +14,7 @@ Hier stellen wir die Wertversprechen unserer Habit Tracker App vor, um zu zeigen
 
 1.	Mangel an Selbstbewusstsein und Reflexion:
 
-Viele Menschen sind sich ihrer täglichen Gewohnheiten und Routinen nicht vollständig bewusst. Ohne ein klares Bild davon, wie sie ihre Zeit verbringen, ist es schwierig, notwendige Änderungen vorzunehmen oder Fortschritte zu erkennen. Oft fehlt es an einem strukturierten Ansatz, um sich selbst zu reflektieren und bewusst Entscheidungen zu treffen, die zu positiven Veränderungen führen.
+   Viele Menschen sind sich ihrer täglichen Gewohnheiten und Routinen nicht vollständig bewusst. Ohne ein klares Bild    davon, wie sie ihre Zeit verbringen, ist es schwierig, notwendige Änderungen vorzunehmen oder Fortschritte zu         erkennen. Oft fehlt es an einem strukturierten Ansatz, um sich selbst zu reflektieren und bewusst Entscheidungen      zu treffen, die zu positiven Veränderungen führen.
 
 2. Fehlende Motivation und Konsistenz:
    
