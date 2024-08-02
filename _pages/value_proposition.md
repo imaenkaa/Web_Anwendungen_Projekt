@@ -10,7 +10,7 @@ Hier stellen wir die Wertversprechen unserer Habit Tracker App vor, um zu zeigen
 
 ## The problem
 
-[In unserer schnelllebigen und hektischen Welt stehen viele Menschen vor der Herausforderung, ihre täglichen Routinen und Gewohnheiten effektiv zu verfolgen und positive Veränderungen in ihrem Leben zu etablieren. Dies ist jedoch oft leichter gesagt als getan. Die Mehrheit der Menschen kämpft mit der Konsistenz und der Motivation, ihre Ziele langfristig zu verfolgen. Hier sind einige der spezifischen Probleme, die unser Habit Tracker löst:
+In unserer schnelllebigen und hektischen Welt stehen viele Menschen vor der Herausforderung, ihre täglichen Routinen und Gewohnheiten effektiv zu verfolgen und positive Veränderungen in ihrem Leben zu etablieren. Dies ist jedoch oft leichter gesagt als getan. Die Mehrheit der Menschen kämpft mit der Konsistenz und der Motivation, ihre Ziele langfristig zu verfolgen. Hier sind einige der spezifischen Probleme, die unser Habit Tracker löst:
 
 1.	Mangel an Selbstbewusstsein und Reflexion:
 
@@ -26,11 +26,11 @@ Das Verfolgen mehrerer Ziele gleichzeitig kann überwältigend sein, besonders w
 
 4. Fehlende Visualisierung des Fortschritts:
 
-Ohne eine klare und visuelle Darstellung der Fortschritte kann es schwierig sein, die eigenen Erfolge zu erkennen und sich davon motivieren zu lassen. Ein Mangel an visueller Rückmeldung kann dazu führen, dass Menschen das Gefühl haben, nicht voranzukommen, selbst wenn sie tatsächlich Fortschritte machen. Dies kann demotivierend wirken und den langfristigen Erfolg beeinträchtigen.]
+Ohne eine klare und visuelle Darstellung der Fortschritte kann es schwierig sein, die eigenen Erfolge zu erkennen und sich davon motivieren zu lassen. Ein Mangel an visueller Rückmeldung kann dazu führen, dass Menschen das Gefühl haben, nicht voranzukommen, selbst wenn sie tatsächlich Fortschritte machen. Dies kann demotivierend wirken und den langfristigen Erfolg beeinträchtigen.
 
 ## Our solution
 
-[Wir haben mithilfe unserer App die perfekte Lösung für die Probleme des Habit Trackings entwickelt. Unsere App unterstützt Benutzer dabei, ihre täglichen Gewohnheiten zu verfolgen, ihre Ziele zu erreichen und langfristig positive Veränderungen zu etablieren. Hier sind die spezifischen Lösungen, die unsere App bietet:
+Wir haben mithilfe unserer App die perfekte Lösung für die Probleme des Habit Trackings entwickelt. Unsere App unterstützt Benutzer dabei, ihre täglichen Gewohnheiten zu verfolgen, ihre Ziele zu erreichen und langfristig positive Veränderungen zu etablieren. Hier sind die spezifischen Lösungen, die unsere App bietet:
 
 1.	Förderung von Selbstbewusstsein und Reflexion:
 
@@ -56,11 +56,10 @@ Warum: Viele Menschen nutzen unstrukturierte Methoden zur Zielverfolgung, was in
 
 Wie: Der Habit Tracker stellt eine organisierte Plattform bereit, auf der Benutzer ihre Ziele klar definieren und ihre Fortschritte systematisch verfolgen können. Mit Funktionen wie Checklisten und prozentualen Fortschrittsanzeigen bietet die App eine strukturierte Methode zur Zielverfolgung. Dies schafft Klarheit und Fokus, was die Zielerreichung erleichtert und Überwältigung reduziert. 
 Diese Lösungen zielen darauf ab, die spezifischen Probleme des Habit Trackings effektiv anzugehen, indem sie Benutzer unterstützen, motivieren und ihre Fortschritte klar und übersichtlich darstellen. Unser Habit Tracker bietet praktische und realistische Funktionen, die den Alltag der Benutzer verbessern und ihnen helfen, ihre Ziele zu erreichen.
-]
 
 ## Target user
 
-[Unsere Habit Tracker App richtet sich an eine vielfältige Zielgruppe, die aus Personen besteht, die ihre Gewohnheiten systematisch verfolgen und verbessern möchten. Um die Bedürfnisse und Motivationen unserer Benutzer besser zu verstehen, haben wir mehrere Personas erstellt, die die verschiedenen Benutzersegmente repräsentieren.
+Unsere Habit Tracker App richtet sich an eine vielfältige Zielgruppe, die aus Personen besteht, die ihre Gewohnheiten systematisch verfolgen und verbessern möchten. Um die Bedürfnisse und Motivationen unserer Benutzer besser zu verstehen, haben wir mehrere Personas erstellt, die die verschiedenen Benutzersegmente repräsentieren.
 
 1. Persona: Laura, die Berufstätige
   •	Alter: 28 Jahre
@@ -102,11 +101,11 @@ Diese Lösungen zielen darauf ab, die spezifischen Probleme des Habit Trackings 
   o	Pflege sozialer Kontakte und Gemeinschaftsaktivitäten
   •	Nutzung der App: Tom verwendet die App, um seine täglichen Spaziergänge zu tracken, sich an seine      Kurse zu erinnern und seine sozialen Aktivitäten zu planen. Die benutzerfreundliche Oberfläche und     die klaren visuellen Darstellungen helfen ihm, den Überblick zu behalten und motiviert zu bleiben.
 
-Unsere Habit Tracker App richtet sich an Benutzer jeden Alters und Hintergrunds, die ihre täglichen Gewohnheiten verbessern und ihre Ziele erreichen möchten. Durch die Anpassungsfähigkeit und Benutzerfreundlichkeit der App können verschiedene Benutzersegmente – von Berufstätigen über Fitness-Enthusiasten bis hin zu Studenten und Rentnern – von den Funktionen der App profitieren. Die Personas verdeutlichen, wie unsere App individuell genutzt werden kann, um spezifische Bedürfnisse und Ziele zu erfüllen.]
+Unsere Habit Tracker App richtet sich an Benutzer jeden Alters und Hintergrunds, die ihre täglichen Gewohnheiten verbessern und ihre Ziele erreichen möchten. Durch die Anpassungsfähigkeit und Benutzerfreundlichkeit der App können verschiedene Benutzersegmente – von Berufstätigen über Fitness-Enthusiasten bis hin zu Studenten und Rentnern – von den Funktionen der App profitieren. Die Personas verdeutlichen, wie unsere App individuell genutzt werden kann, um spezifische Bedürfnisse und Ziele zu erfüllen.
 
 ## Customer journey
 
-[Unsere Habit Tracker App bietet eine nahtlose und intuitive Nutzererfahrung, die die Benutzer vom Einstiegspunkt der App bis zur Erledigung einer Aufgabe führt. Hier ist eine schematische Darstellung der Customer Journey:
+Unsere Habit Tracker App bietet eine nahtlose und intuitive Nutzererfahrung, die die Benutzer vom Einstiegspunkt der App bis zur Erledigung einer Aufgabe führt. Hier ist eine schematische Darstellung der Customer Journey:
 
 1. Einstiegspunkt: Anmeldung und Registrierung
   •	Bildschirm: Begrüßungsbildschirm mit Optionen für "Anmelden" und "Registrieren"
@@ -182,4 +181,4 @@ Schematische Darstellung der Customer Journey:
 8.	Erfolge und Meilensteine
   o	Liste der Erfolge ansehen → Abzeichen sammeln und Motivation steigern
 
-Diese Customer Journey zeigt, wie Benutzer unsere Habit Tracker App von der Registrierung bis zur Erreichung ihrer Ziele nutzen. Jede Phase ist darauf ausgelegt, die Benutzererfahrung zu verbessern und sicherzustellen, dass die Benutzer motiviert bleiben und ihres Habits erfolgreich verfolgen.]
+Diese Customer Journey zeigt, wie Benutzer unsere Habit Tracker App von der Registrierung bis zur Erreichung ihrer Ziele nutzen. Jede Phase ist darauf ausgelegt, die Benutzererfahrung zu verbessern und sicherzustellen, dass die Benutzer motiviert bleiben und ihres Habits erfolgreich verfolgen.
