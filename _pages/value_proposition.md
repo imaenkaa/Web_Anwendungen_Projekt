@@ -62,14 +62,14 @@ Diese Lösungen zielen darauf ab, die spezifischen Probleme des Habit Trackings 
 Unsere Habit Tracker App richtet sich an eine vielfältige Zielgruppe, die aus Personen besteht, die ihre Gewohnheiten systematisch verfolgen und verbessern möchten. Um die Bedürfnisse und Motivationen unserer Benutzer besser zu verstehen, haben wir mehrere Personas erstellt, die die verschiedenen Benutzersegmente repräsentieren.
 
 1. Persona: Laura, die Berufstätige
-  •	Alter: 28 Jahre
-  •	Beruf: Marketing-Managerin
-  •	Hintergrund: Laura arbeitet in einem schnelllebigen Umfeld und hat Schwierigkeiten, ihre beruflichen und persönlichen Ziele in Einklang zu bringen. Sie möchte ihre Zeit effizienter nutzen und positive Gewohnheiten entwickeln, um Stress abzubauen und ihre Produktivität zu steigern.
-  •	Ziele:
-  o	Tägliches Yoga zur Stressbewältigung
-  o	Regelmäßige Pausen und Freizeitaktivitäten zur Burnout-Prävention
-  o	Effektives Zeitmanagement durch To-Do-Listen
-  •	Nutzung der App: Laura nutzt die App, um ihre täglichen Yoga-Sessions zu tracken, Pausen zu planen     und ihre Aufgaben zu organisieren. Die Erinnerungsfunktion und die visuelle Darstellung des            Fortschritts helfen ihr, motiviert zu bleiben und ihre Ziele zu erreichen.
+- Alter: 28 Jahre
+- Beruf: Marketing-Managerin
+- Hintergrund: Laura arbeitet in einem schnelllebigen Umfeld und hat Schwierigkeiten, ihre beruflichen und              persönlichen Ziele in Einklang zu bringen. Sie möchte ihre Zeit effizienter nutzen und positive Gewohnheiten          entwickeln, um Stress abzubauen und ihre Produktivität zu steigern.
+- Ziele:
+   - Tägliches Yoga zur Stressbewältigung
+   - Regelmäßige Pausen und Freizeitaktivitäten zur Burnout-Prävention
+   - Effektives Zeitmanagement durch To-Do-Listen
+   - Nutzung der App: Laura nutzt die App, um ihre täglichen Yoga-Sessions zu tracken, Pausen zu planen     und ihre       Aufgaben zu organisieren. Die Erinnerungsfunktion und die visuelle Darstellung des            Fortschritts            helfen ihr, motiviert zu bleiben und ihre Ziele zu erreichen.
 
 2. Persona: Mark, der Fitness-Enthusiast
   •	Alter: 35 Jahre
