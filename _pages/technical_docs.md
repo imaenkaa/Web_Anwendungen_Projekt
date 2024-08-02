@@ -22,9 +22,84 @@ main.py: Beinhaltet die Logik und Routen für die Startseite und die Anzeige der
 
 ## Data Model
 
+1. User
+        Attributes:
+            id: Primärschlüssel
+            username: Einzigartig, nicht null
+            password: Nicht null
 
+        Relationships:
+            habits: Beziehung zu Habit
 
+2. Habit
+        Attributes:
+            id: Primärschlüssel
+            name: Nicht null
+            description
+            category: Nicht null
+            start_date: Nicht null, Standardwert ist das aktuelle Datum
+            highest_streak: Standardwert ist 0
 
+        Relationships:
+            user_id: Fremdschlüssel zu User
+            logs: Beziehung zu LogHabit
+            goals: Beziehung zu Goal
+            user_badges: Beziehung zu UserBadge
+
+3. LogHabit
+        Attributes:
+            id: Primärschlüssel
+            date: Nicht null
+            completed: Nicht null, Standardwert ist False
+            notes
+
+        Relationships:
+            habit_id: Fremdschlüssel zu Habit
+
+4. Goal
+        Attributes:
+            id: Primärschlüssel
+            target_date: Nicht null
+            achieved: Nicht null, Standardwert ist False
+            start_date: Nicht null
+            progress: Standardwert ist 0
+            Result
+
+       Relationships:
+            habit_id: Fremdschlüssel zu Habit
+
+6. Badge
+        Attributes:
+            id: Primärschlüssel
+            name: Nicht null
+            description: Nicht null
+            streak_required: Nicht null
+
+7. UserBadge
+        Attributes:
+            id: Primärschlüssel
+            date_awarded: Nicht null, Standardwert ist das aktuelle Datum
+
+        Relationships:
+            user_id: Fremdschlüssel zu User
+            badge_id: Fremdschlüssel zu Badge
+            habit_id: Fremdschlüssel zu Habit
+
+8. Freeze
+        Attributes:
+            id: Primärschlüssel
+            date: Nicht null
+
+       Relationships:
+            habit_id: Fremdschlüssel zu Habit
+
+Beziehungen
+    - User: Hat viele Habits.
+    - Habit: Gehört zu einem User und hat viele LogHabits, Goals, UserBadges, und Freezes.
+    - LogHabit: Gehört zu einem Habit.
+    - Goal: Gehört zu einem Habit.
+    - UserBadge: Gehört zu einem User, einem Badge und einem Habit.
+    - Freeze: Gehört zu einem Habit.
 
 ## Reference
 
