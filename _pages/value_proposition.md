@@ -69,37 +69,37 @@ Unsere Habit Tracker App richtet sich an eine vielfältige Zielgruppe, die aus P
    - Tägliches Yoga zur Stressbewältigung
    - Regelmäßige Pausen und Freizeitaktivitäten zur Burnout-Prävention
    - Effektives Zeitmanagement durch To-Do-Listen
-   - Nutzung der App: Laura nutzt die App, um ihre täglichen Yoga-Sessions zu tracken, Pausen zu planen     und ihre       Aufgaben zu organisieren. Die Erinnerungsfunktion und die visuelle Darstellung des            Fortschritts            helfen ihr, motiviert zu bleiben und ihre Ziele zu erreichen.
+- Nutzung der App: Laura nutzt die App, um ihre täglichen Yoga-Sessions zu tracken, Pausen zu planen     und ihre       Aufgaben zu organisieren. Die Erinnerungsfunktion und die visuelle Darstellung des            Fortschritts            helfen ihr, motiviert zu bleiben und ihre Ziele zu erreichen.
 
 2. Persona: Mark, der Fitness-Enthusiast
-  •	Alter: 35 Jahre
-  •	Beruf: Personal Trainer
-  •	Hintergrund: Mark ist leidenschaftlich daran interessiert, seine körperliche Fitness zu verbessern     und anderen zu helfen, ihre Fitnessziele zu erreichen. Er möchte seine eigenen Trainingsroutinen       dokumentieren und sicherstellen, dass er seine Fitnessziele konsistent verfolgt.
-  •	Ziele:
-  o	Tägliches Krafttraining und Ausdauerübungen
-  o	Überwachung der Ernährungsgewohnheiten
-  o	Regelmäßige Teilnahme an Fitnesswettkämpfen
-  •	Nutzung der App: Mark verwendet die App, um seine Trainingspläne zu dokumentieren, seine Ernährung     zu überwachen und seinen Fortschritt bei der Vorbereitung auf Wettkämpfe zu verfolgen. Die             Checklisten und Fortschrittsbalken helfen ihm, fokussiert und motiviert zu bleiben.
+- Alter: 35 Jahre
+- Beruf: Personal Trainer
+- Hintergrund: Mark ist leidenschaftlich daran interessiert, seine körperliche Fitness zu verbessern     und anderen    zu helfen, ihre Fitnessziele zu erreichen. Er möchte seine eigenen Trainingsroutinen       dokumentieren und          sicherstellen, dass er seine Fitnessziele konsistent verfolgt.
+- Ziele:
+   - Tägliches Krafttraining und Ausdauerübungen
+   - Überwachung der Ernährungsgewohnheiten
+   - Regelmäßige Teilnahme an Fitnesswettkämpfen
+- Nutzung der App: Mark verwendet die App, um seine Trainingspläne zu dokumentieren, seine Ernährung     zu             überwachen und seinen Fortschritt bei der Vorbereitung auf Wettkämpfe zu verfolgen. Die             Checklisten       und Fortschrittsbalken helfen ihm, fokussiert und motiviert zu bleiben.
 
 3. Persona: Anna, die Studentin
-  •	Alter: 21 Jahre
-  •	Beruf: Studentin der Psychologie
-  •	Hintergrund: Anna jongliert zwischen ihrem Studium, Nebenjobs und sozialen Aktivitäten. Sie möchte     bessere Lerngewohnheiten entwickeln und ihre akademischen und persönlichen Ziele besser                organisieren.
-  •	Ziele:
-  o	Tägliches Lesen und Lernen für ihre Kurse
-  o	Regelmäßige Teilnahme an sozialen Aktivitäten
-  o	Verbesserung der Schlafgewohnheiten
-  •	Nutzung der App: Anna nutzt die App, um ihre Lernzeiten zu planen, soziale Aktivitäten zu              organisieren und ihre Schlafgewohnheiten zu verbessern. Die Tagebuchfunktion und die prozentuale       Fortschrittsanzeige helfen ihr, ihre akademischen und persönlichen Fortschritte im Auge zu             behalten.
+- Alter: 21 Jahre
+- Beruf: Studentin der Psychologie
+- Hintergrund: Anna jongliert zwischen ihrem Studium, Nebenjobs und sozialen Aktivitäten. Sie möchte     bessere        Lerngewohnheiten entwickeln und ihre akademischen und persönlichen Ziele besser                organisieren.
+- Ziele:
+   - Tägliches Lesen und Lernen für ihre Kurse
+   - Regelmäßige Teilnahme an sozialen Aktivitäten
+   - Verbesserung der Schlafgewohnheiten
+- Nutzung der App: Anna nutzt die App, um ihre Lernzeiten zu planen, soziale Aktivitäten zu                             organisieren und ihre Schlafgewohnheiten zu verbessern. Die Tagebuchfunktion und die prozentuale                      Fortschrittsanzeige helfen ihr, ihre akademischen und persönlichen Fortschritte im Auge zu             behalten.
 
 4. Persona: Tom, der Rentner
-  •	Alter: 67 Jahre
-  •	Beruf: Pensionierter Ingenieur
-  •	Hintergrund: Tom genießt seinen Ruhestand und möchte seine Freizeit nutzen, um neue Hobbys zu          entwickeln und gesunde Gewohnheiten zu pflegen. Er sucht nach einer einfachen Methode, um seine        täglichen Aktivitäten zu organisieren und neue Ziele zu setzen.
-  •	Ziele:
-  o	Tägliche Spaziergänge zur Verbesserung der Gesundheit
-  o	Teilnahme an Kunst- und Handwerkskursen
-  o	Pflege sozialer Kontakte und Gemeinschaftsaktivitäten
-  •	Nutzung der App: Tom verwendet die App, um seine täglichen Spaziergänge zu tracken, sich an seine      Kurse zu erinnern und seine sozialen Aktivitäten zu planen. Die benutzerfreundliche Oberfläche und     die klaren visuellen Darstellungen helfen ihm, den Überblick zu behalten und motiviert zu bleiben.
+- Alter: 67 Jahre
+- Beruf: Pensionierter Ingenieur
+- Hintergrund: Tom genießt seinen Ruhestand und möchte seine Freizeit nutzen, um neue Hobbys zu          entwickeln     und gesunde Gewohnheiten zu pflegen. Er sucht nach einer einfachen Methode, um seine        täglichen Aktivitäten     zu organisieren und neue Ziele zu setzen.
+- Ziele:
+   - Tägliche Spaziergänge zur Verbesserung der Gesundheit
+   - Teilnahme an Kunst- und Handwerkskursen
+   - Pflege sozialer Kontakte und Gemeinschaftsaktivitäten
+- Nutzung der App: Tom verwendet die App, um seine täglichen Spaziergänge zu tracken, sich an seine      Kurse zu       erinnern und seine sozialen Aktivitäten zu planen. Die benutzerfreundliche Oberfläche und     die klaren visuellen    Darstellungen helfen ihm, den Überblick zu behalten und motiviert zu bleiben.
 
 Unsere Habit Tracker App richtet sich an Benutzer jeden Alters und Hintergrunds, die ihre täglichen Gewohnheiten verbessern und ihre Ziele erreichen möchten. Durch die Anpassungsfähigkeit und Benutzerfreundlichkeit der App können verschiedene Benutzersegmente – von Berufstätigen über Fitness-Enthusiasten bis hin zu Studenten und Rentnern – von den Funktionen der App profitieren. Die Personas verdeutlichen, wie unsere App individuell genutzt werden kann, um spezifische Bedürfnisse und Ziele zu erfüllen.
 
@@ -108,77 +108,77 @@ Unsere Habit Tracker App richtet sich an Benutzer jeden Alters und Hintergrunds,
 Unsere Habit Tracker App bietet eine nahtlose und intuitive Nutzererfahrung, die die Benutzer vom Einstiegspunkt der App bis zur Erledigung einer Aufgabe führt. Hier ist eine schematische Darstellung der Customer Journey:
 
 1. Einstiegspunkt: Anmeldung und Registrierung
-  •	Bildschirm: Begrüßungsbildschirm mit Optionen für "Anmelden" und "Registrieren"
-  •	Aktionen:
-  o	Neue Benutzer erstellen ein Konto, indem sie ihre E-Mail-Adresse und ein Passwort eingeben.
-  o	Bestehende Benutzer melden sich mit ihren Zugangsdaten an.
+- Bildschirm: Begrüßungsbildschirm mit Optionen für "Anmelden" und "Registrieren"
+- Aktionen:
+   - Neue Benutzer erstellen ein Konto, indem sie ihre E-Mail-Adresse und ein Passwort eingeben.
+   - Bestehende Benutzer melden sich mit ihren Zugangsdaten an.
 
 2. Onboarding-Prozess
-  •	Bildschirm: Einführungsbildschirm mit einer kurzen Anleitung zur App-Nutzung
-  •	Aktionen:
-  o	Benutzer sehen eine kurze Einführung zur Funktionalität der App.
-  o	Option, Tutorials oder Tipps zur effektiven Nutzung der App zu überspringen oder anzusehen.
+- Bildschirm: Einführungsbildschirm mit einer kurzen Anleitung zur App-Nutzung
+- Aktionen:
+   - Benutzer sehen eine kurze Einführung zur Funktionalität der App.
+   - Option, Tutorials oder Tipps zur effektiven Nutzung der App zu überspringen oder anzusehen.
 
 3. Haupt-Dashboard
-  •	Bildschirm: Hauptübersicht mit allen aktiven Habits und deren Fortschritt
-  •	Aktionen:
-  o	Benutzer sehen eine Übersicht ihrer aktuellen Habits mit Fortschrittsbalken und Streak-Zählern.
-  o	Möglichkeit, neue Habits hinzuzufügen oder bestehende zu bearbeiten.
+- Bildschirm: Hauptübersicht mit allen aktiven Habits und deren Fortschritt
+- Aktionen:
+   - Benutzer sehen eine Übersicht ihrer aktuellen Habits mit Fortschrittsbalken und Streak-Zählern.
+   - Möglichkeit, neue Habits hinzuzufügen oder bestehende zu bearbeiten.
 
 4. Erstellung eines neuen Habits
-  •	Bildschirm: Formular zur Erstellung eines neuen Habits
-  •	Aktionen:
-  o	Benutzer geben den Namen des Habits, die Kategorie und die Häufigkeit ein.
-  o	Auswahl zusätzlicher Optionen wie Erinnerungen oder Notizen.
+- Bildschirm: Formular zur Erstellung eines neuen Habits
+- Aktionen:
+   - Benutzer geben den Namen des Habits, die Kategorie und die Häufigkeit ein.
+   - Auswahl zusätzlicher Optionen wie Erinnerungen oder Notizen.
 
 5. Tägliches Tracking
-  •	Bildschirm: Tägliches Eingabe-Interface
-  •	Aktionen:
-  o	Benutzer bestätigen, ob sie ihre Habits für den Tag erfüllt haben, indem sie auf Symbole oder          Schaltflächen klicken.
-  o	Möglichkeit, Notizen oder Kommentare zu den Habits hinzuzufügen.
+- Bildschirm: Tägliches Eingabe-Interface
+- Aktionen:
+   - Benutzer bestätigen, ob sie ihre Habits für den Tag erfüllt haben, indem sie auf Symbole oder                         Schaltflächen klicken.
+   - Möglichkeit, Notizen oder Kommentare zu den Habits hinzuzufügen.
 
 6. Visualisierung des Fortschritts
-  •	Bildschirm: Fortschrittsübersicht mit Grafiken und Diagrammen
-  •	Aktionen:
-  o	Benutzer können ihre Fortschritte in Form von Grafiken und Diagrammen einsehen.
-  o	Analyse der langfristigen Trends und Erfolge ihrer Habits.
+- Bildschirm: Fortschrittsübersicht mit Grafiken und Diagrammen
+- Aktionen:
+   - Benutzer können ihre Fortschritte in Form von Grafiken und Diagrammen einsehen.
+   - Analyse der langfristigen Trends und Erfolge ihrer Habits.
 
 7. Nutzung der "Freeze"-Option
-  •	Bildschirm: Kalender-Widget zur Auswahl der Pausentage
-  •	Aktionen:
-  o	Benutzer wählen die Tage aus, an denen sie ihre Habits pausieren möchten.
-  o	Bestätigung und Speicherung der Auswahl.
+- Bildschirm: Kalender-Widget zur Auswahl der Pausentage
+- Aktionen:
+   - Benutzer wählen die Tage aus, an denen sie ihre Habits pausieren möchten.
+   - Bestätigung und Speicherung der Auswahl.
 
 8. Erfolge und Meilensteine
-  •	Bildschirm: Übersicht der erreichten Erfolge und Abzeichen
-  •	Aktionen:
-  o	Benutzer sehen eine Liste ihrer erreichten Meilensteine und virtuellen Belohnungen.
-  o	Motivation durch das Sammeln von Abzeichen für kontinuierliche Erfolge.
+- Bildschirm: Übersicht der erreichten Erfolge und Abzeichen
+- Aktionen:
+   - Benutzer sehen eine Liste ihrer erreichten Meilensteine und virtuellen Belohnungen.
+   - Motivation durch das Sammeln von Abzeichen für kontinuierliche Erfolge.
 
 Schematische Darstellung der Customer Journey:
 
 1.	Anmelde- und Registrierungsbildschirm
-  o	E-Mail und Passwort eingeben → Konto erstellen oder anmelden
+- E-Mail und Passwort eingeben → Konto erstellen oder anmelden
 
 2.	Onboarding-Bildschirm
-  o	Kurze Einführung → Tutorial ansehen oder überspringen
+- Kurze Einführung → Tutorial ansehen oder überspringen
 
 3.	Haupt-Dashboard
-  o	Übersicht der Habits → Neue Habits hinzufügen oder bestehende bearbeiten
+- Übersicht der Habits → Neue Habits hinzufügen oder bestehende bearbeiten
 
 4.	Neuer Habit
-  o	Habit-Details eingeben → Kategorie und Häufigkeit auswählen → Erinnerungen und Notizen einstellen
+- Habit-Details eingeben → Kategorie und Häufigkeit auswählen → Erinnerungen und Notizen einstellen
 
 5.	Tägliches Tracking
-  o	Habits abhaken → Notizen hinzufügen
+- Habits abhaken → Notizen hinzufügen
 
 6.	Fortschrittsübersicht
-  o	Grafiken und Diagramme ansehen → Langfristige Trends analysieren
+- Grafiken und Diagramme ansehen → Langfristige Trends analysieren
 
 7.	"Freeze"-Option
-  o	Kalender-Widget öffnen → Pausentage auswählen und bestätigen
+- Kalender-Widget öffnen → Pausentage auswählen und bestätigen
 
 8.	Erfolge und Meilensteine
-  o	Liste der Erfolge ansehen → Abzeichen sammeln und Motivation steigern
+- Liste der Erfolge ansehen → Abzeichen sammeln und Motivation steigern
 
 Diese Customer Journey zeigt, wie Benutzer unsere Habit Tracker App von der Registrierung bis zur Erreichung ihrer Ziele nutzen. Jede Phase ist darauf ausgelegt, die Benutzererfahrung zu verbessern und sicherzustellen, dass die Benutzer motiviert bleiben und ihres Habits erfolgreich verfolgen.
