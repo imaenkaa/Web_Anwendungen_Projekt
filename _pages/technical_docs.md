@@ -23,18 +23,18 @@ main.py: Beinhaltet die Logik und Routen für die Startseite und die Anzeige der
 ## Data Model
 
 1. User
-        Attributes:
-            id: Primärschlüssel
-            username: Einzigartig, nicht null
-            password: Nicht null
+   Attributes:
+   - id: Primärschlüssel
+   - username: Einzigartig, nicht null
+   - password: Nicht null
 
-        Relationships:
-            habits: Beziehung zu Habit
+   Relationships:
+   - habits: Beziehung zu Habit
 
 2. Habit
-        Attributes:
-            id: Primärschlüssel
-            name: Nicht null
+   Attributes:
+   id: Primärschlüssel
+   name: Nicht null
             description
             category: Nicht null
             start_date: Nicht null, Standardwert ist das aktuelle Datum
