@@ -91,14 +91,14 @@ main.py: Beinhaltet die Logik und Routen für die Startseite und die Anzeige der
    - badge_id: Fremdschlüssel zu Badge
    - habit_id: Fremdschlüssel zu Habit
 
-11. Freeze
+7. Freeze
 
-   Attributes:
-   - id: Primärschlüssel
-   - date: Nicht null
-
-   Relationships:
-   - habit_id: Fremdschlüssel zu Habit
+      Attributes:
+      - id: Primärschlüssel
+      - date: Nicht null
+   
+      Relationships:
+      - habit_id: Fremdschlüssel zu Habit
 
 Beziehungen
 - User: Hat viele Habits.
