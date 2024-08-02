@@ -9,16 +9,74 @@ Hier bieten wir eine detaillierte technische Dokumentation unserer Habit Tracker
 
 ## Architecture
 
-Unsere Anwendung ist eine Habit-Tracking-App, die es Benutzern ermöglicht, ihre täglichen Gewohnheiten zu erstellen, zu verfolgen und zu analysieren. Mit Funktionen zur Erfassung von täglichen Einträgen, Zielsetzung und Fortschrittsverfolgung unterstützt die App Nutzer dabei, ihre Gewohnheiten nachhaltig zu entwickeln. Dies wird durch eine Kombination aus Flask für das Web-Framework und SQLAlchemy für das Datenbankmanagement erreicht.
+### Overview
+Unsere Habit Tracker-Anwendung hilft Nutzern dabei, gesunde Gewohnheiten zu bilden und aufrechtzuerhalten, indem sie ihnen ermöglicht, ihre täglichen Routinen zu erstellen, zu verfolgen und zu visualisieren. Die Hauptfunktionen umfassen das Setzen von Zielgewohnheiten, das tägliche Protokollieren von Aktivitäten, das Erwerben von Abzeichen für konsequente Leistung und das Einfrieren von Gewohnheiten ohne Verlust der Streaks. Die App bietet eine personalisierte Erfahrung durch sichere Benutzerauthentifizierung und ein intuitives Dashboard zur Fortschrittsverfolgung.
 
-Der Code der Anwendung ist in verschiedene Module unterteilt, die jeweils spezifische Funktionen abdecken:
+Hauptfunktionen:
 
-habits/routes.py: Hier werden die Routen und Logik für das Hinzufügen, Anzeigen und Verwalten von Gewohnheiten und deren Logs definiert.
+- Benutzerauthentifizierung: Sichere Registrierung und Anmeldung mittels Flask-Login.
+- Gewohnheitsverwaltung: Benutzer können Gewohnheiten erstellen, aktualisieren und löschen.
+- Tägliches Protokollieren: Benutzer protokollieren tägliche Aktivitäten mit optionalen Notizen.
+- Zielsetzung: Benutzer setzen Ziele mit spezifischen Start- und Zieldaten.
+- Abzeichensystem: Benutzer erhalten Abzeichen für das Erreichen von Gewohnheitsstreaks.
+- Einfrieren von Gewohnheiten: Benutzer können das Verfolgen bestimmter Gewohnheiten pausieren, ohne die Streaks zu unterbrechen.
+- Dashboard: Benutzer können ihren Gewohnheitsfortschritt, Streaks und Zielerreichungen visualisieren.
 
-models.py: Enthält die Definition der Datenbankmodelle, die von SQLAlchemy verwendet werden.
-auth.py: Behandelt die Authentifizierung und Autorisierung von Benutzern, einschließlich Login, Registrierung und Logout.
+### Codemap
 
-main.py: Beinhaltet die Logik und Routen für die Startseite und die Anzeige der täglichen Gewohnheiten des Benutzers.
+- app.py: Der Haupteinstiegspunkt der Anwendung, initialisiert die App und ihre Komponenten.
+- config.py: Konfigurationseinstellungen für die Anwendung (nicht gezeigt, umfasst in der Regel DB-Einstellungen, geheime Schlüssel usw.).
+- models.py: SQLAlchemy-Modelle, die das Datenbankschema darstellen, einschließlich Benutzer, Gewohnheiten, Logs, Ziele, Abzeichen,           Benutzerabzeichen und Einfrieren.
+- templates/: HTML-Templates zur Darstellung von Ansichten.
+   - auth/: Authentifizierungsbezogene Ansichten (Login, Registrierung).
+   - habit/: Gewohnheitsverwaltungsansichten (Gewohnheit erstellen, Gewohnheit anzeigen, Log hinzufügen, Ziel hinzufügen, Gewohnheit             einfrieren, Dashboard).
+   - badges/: Ansichten zum Anzeigen erworbener Abzeichen.
+   - index.html: Haupt-Homepage-Template.
+- static/: Statische Dateien (CSS, JS, Bilder).
+- blueprints/: Blueprint-Definitionen für verschiedene Anwendungsmodule.
+   - auth.routes: Behandelt auth-bezogene Routen.
+   - habits.routes: Verwaltet gewohnheitsbezogene Routen.
+   - badges.routes: Verwaltet abzeichenbezogene Routen.
+   - main.routes: Behandelt Haupt-Homepage-Routen.
+
+### Cross-cutting concerns
+
+Authentifizierung:
+- Implementiert mit Flask-Login.
+- Benutzersitzungen gewährleisten personalisiertes Gewohnheitstracking.
+- login_user, logout_user und login_required Dekoratoren sichern Routen.
+
+Datenbankverwaltung:
+- SQLAlchemy wird als ORM für Datenbankinteraktionen verwendet.
+- Modelle definieren Beziehungen und Einschränkungen.
+- Beispielmodelle umfassen Benutzer, Gewohnheiten, LogHabits, Ziele, Abzeichen, Benutzerabzeichen und Einfrieren.
+
+Gewohnheitsprotokollierung:
+- Benutzer protokollieren tägliche Gewohnheitsaktivitäten.
+- Logs umfassen den Erledigungsstatus und optionale Notizen.
+- Validierung verhindert das Protokollieren für zukünftige Daten.
+
+Zielverfolgung:
+- Benutzer setzen Ziele mit Start- und Zieldaten.
+- Der Fortschritt wird basierend auf täglichen Logs verfolgt.
+- Ziele können als erreicht oder fehlgeschlagen markiert werden, basierend auf der Log-Erfüllung.
+
+Abzeichensystem:
+- Abzeichen werden für das Erreichen spezifischer Streaks vergeben.
+- Die Abzeicheninitialisierung wird durch einen benutzerdefinierten CLI-Befehl gehandhabt.
+- Das UserBadge-Modell verknüpft Benutzer mit ihren erworbenen Abzeichen.
+
+Einfrieren von Gewohnheiten:
+- Benutzer können Gewohnheiten für bestimmte Daten einfrieren.
+- Eingefrorene Daten werden in Streak- und Zielberechnungen berücksichtigt.
+
+Fehlerbehandlung:
+- Flash-Nachrichten bieten Benutzerrückmeldungen.
+- Durch ordnungsgemäße Validierung und Fehlerbehandlung wird eine reibungslose Benutzererfahrung gewährleistet.
+
+Templates und statische Dateien:
+- Jinja2-Templates für dynamisches HTML-Rendering.
+- CSS- und JavaScript-Dateien im Verzeichnis static.
 
 ## Data Model
 
